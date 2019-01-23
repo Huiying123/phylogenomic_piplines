@@ -1,0 +1,1 @@
+java -jar /home/uni/programme/beagle/beagle.27Jul16.86a.jar gt=07.final_snp_filtered_discard_prot8714_discardhalfmissing.recode.vcf.gz out=07.final_snp_filtered_discard_prot8714_discardhalfmissing.recode.ibd.moderate9 ibd=true impute=false ibdtrim=50 window=50000 overlap=5000 ibdlod=10
