@@ -1,0 +1,1 @@
+/home/uni/programme/plink/plink --vcf /media/uni/data/projects/Populus_phylogenomic/06.indelrealign/06.final_snp_file/07.final_snp_filtered_discard_prot8714_discardhalfmissing.recode.vcf --distance-matrix --allow-extra-chr --out 05.populus_36_discardhalfmissing
