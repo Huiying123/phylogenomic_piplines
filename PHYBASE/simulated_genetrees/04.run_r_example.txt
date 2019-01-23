@@ -1,0 +1,20 @@
+> mptree1 = "(ptri:16.430592,((pqio:9,pade:9):0.430592,(palb:9.098414,ptma:9.098414):0.332178):7.000000);"
+> spname <- species.name(mptree1)
+> nodematrix <- read.tree.nodes(str=mptree1, name=spname)$nodes
+> nodematrix[,5]<-2
+> nodematrix
+      [,1] [,2] [,3]      [,4] [,5] [,6] [,7]
+ [1,]    6   -9   -9  9.000000    2   -9   -9
+ [2,]    7   -9   -9  9.098414    2   -9   -9
+ [3,]    6   -9   -9  9.000000    2   -9   -9
+ [4,]    7   -9   -9  9.098414    2   -9   -9
+ [5,]    9   -9   -9 16.430592    2   -9   -9
+ [6,]    8    3    1  0.430592    2   -9   -9
+ [7,]    8    2    4  0.332178    2   -9   -9
+ [8,]    9    6    7  7.000000    2   -9   -9
+ [9,]   -9    5    8 -9.000000    2   -9   -9
+> genetrees=1:1000000  
+> for(i in 1:1000000)
++ genetrees[i]<-sim.coaltree.sp(rootnode=9, nodematrix=nodematrix,nspecies=5,seq=rep(1,5), name=spname)$gt                
+> write(genetrees,"populus_simulated_5species.tre")
+> 
