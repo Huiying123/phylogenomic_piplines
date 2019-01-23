@@ -1,0 +1,1 @@
+python twisst.py -t output.unphased.phyml_bionj.w500.trees.gz -w 5species.weights.w500.csv.gz --outputTopos 5species.w500.topologies.trees -g pade -g palb -g pqio -g ptma -g ptri --method complete --groupsFile 5species.tsv
