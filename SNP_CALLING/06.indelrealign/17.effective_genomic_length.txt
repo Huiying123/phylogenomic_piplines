@@ -1,0 +1,18 @@
+Ptrichocarpa_210_v3.0.fa
+ [ 1446 ] scaffolds loaded...
+
+scaffold:
+total    :      1446(seqs), 434134862(bases), average length: 300231.578146611
+longest  :      Chr01(name)     50495391(length)
+shortest :      scaffold_3453(name)     1003(length)
+n50    =        19465461        number=8
+n90    =        12948742        number=19
+totalN =        11191403        N percent : 0.0257786323550307
+
+contig:
+total    :      8313(seqs), 422943459(bases), average length: 50877.3558282209
+longest  :      Chr12-152(name) 3398194(length)
+shortest :      scaffold_3595-1(name)   1(length)
+n50    =        552806  number=206
+n90    =        41799   number=1131
+totalN =        0       N percent : 0
