@@ -1,0 +1,1 @@
+python /home/uni/programme/dfoil/dfoil-master/dfoil.py --infile dfoil_outfile --out output_all_p0.01.new --mode dfoil --pvalue 0.01 --plot_lineweight 0.05  --plot output_p0.01_all.new.pdf --plot_color color --plot_background 1 --plot_height 3 --runlength 3 
