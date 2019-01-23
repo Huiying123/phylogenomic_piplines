@@ -1,0 +1,10 @@
+admixture --cv -j12 01.populus_36.bed 1 | tee 01.populus_36.bed.1.log
+admixture --cv -j12 01.populus_36.bed 2 | tee 01.populus_36.bed.2.log
+admixture --cv -j12 01.populus_36.bed 3 | tee 01.populus_36.bed.3.log
+admixture --cv -j12 01.populus_36.bed 4 | tee 01.populus_36.bed.4.log
+admixture --cv -j12 01.populus_36.bed 5 | tee 01.populus_36.bed.5.log
+admixture --cv -j12 01.populus_36.bed 6 | tee 01.populus_36.bed.6.log
+admixture --cv -j12 01.populus_36.bed 7 | tee 01.populus_36.bed.7.log
+admixture --cv -j12 01.populus_36.bed 8 | tee 01.populus_36.bed.8.log
+admixture --cv -j12 01.populus_36.bed 9 | tee 01.populus_36.bed.9.log
+admixture --cv -j12 01.populus_36.bed 10 | tee 01.populus_36.bed.10.log
